@@ -1,7 +1,7 @@
 {
     "aquifers_enabled": false,
     "default_block": {
-        "Name": "minecraft:cobblestone"
+        "Name": "minecraft:stone"
     },
     "default_fluid": {
         "Name": "minecraft:water",
@@ -83,7 +83,7 @@
         "vein_ridged": 0,
         "vein_toggle": 0
     },
-    "ore_veins_enabled": false,
+    "ore_veins_enabled": true,
     "sea_level": -64,
     "spawn_target": [],
     "surface_rule": {
