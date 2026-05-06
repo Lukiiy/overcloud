@@ -1,0 +1,11 @@
+{
+    "type": "overcloud:overcloud",
+    "generator": {
+        "type": "minecraft:noise",
+        "biome_source": {
+            "type": "minecraft:fixed",
+            "biome": "overcloud:overplains"
+        },
+        "settings": "overcloud:low_float"
+    }
+}
