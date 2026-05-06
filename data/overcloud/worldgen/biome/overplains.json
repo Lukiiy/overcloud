@@ -2,7 +2,8 @@
     "temperature_modifier": "frozen",
     "carvers": [
         "minecraft:cave",
-        "minecraft:nether_cave"
+        "minecraft:nether_cave",
+        "minecraft:cave_extra_underground"
     ],
     "downfall": 0.2,
     "effects": {
@@ -34,7 +35,7 @@
             "minecraft:patch_tall_grass_2",
             "minecraft:patch_bush",
             "minecraft:trees_plains",
-            "overcloud:flowers",
+            "overcloud:small_flowers",
             "minecraft:patch_grass_plain",
             "minecraft:brown_mushroom_normal",
             "minecraft:red_mushroom_normal",
