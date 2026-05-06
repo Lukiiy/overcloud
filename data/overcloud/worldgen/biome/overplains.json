@@ -4,7 +4,7 @@
         "minecraft:cave",
         "minecraft:nether_cave"
     ],
-    "downfall": 0.4,
+    "downfall": 0.2,
     "effects": {
         "water_color": 4947944,
         "grass_color": 5557981,
@@ -34,7 +34,7 @@
             "minecraft:patch_tall_grass_2",
             "minecraft:patch_bush",
             "minecraft:trees_plains",
-            "minecraft:flower_plains",
+            "overcloud:flowers",
             "minecraft:patch_grass_plain",
             "minecraft:brown_mushroom_normal",
             "minecraft:red_mushroom_normal",
@@ -72,10 +72,10 @@
                 "type": "minecraft:zombie",
                 "maxCount": 4,
                 "minCount": 4,
-                "weight": 90
+                "weight": 100
             },
             {
-                "type": "minecraft:skeleton",
+                "type": "minecraft:stray",
                 "maxCount": 4,
                 "minCount": 4,
                 "weight": 100
@@ -88,5 +88,5 @@
             }
         ]
     },
-    "temperature": 0.8
+    "temperature": 0.6
 }

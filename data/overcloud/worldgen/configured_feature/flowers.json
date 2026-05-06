@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:simple_block",
+    "config": {
+        "to_place": {
+            "type": "minecraft:noise_threshold_provider",
+            "default_state": {
+                "Name": "minecraft:allium"
+            },
+            "high_chance": 0.33333334,
+            "high_states": [
+                {
+                    "Name": "minecraft:orange_tulip"
+                }
+            ],
+            "low_states": [
+                {
+                    "Name": "minecraft:torchflower"
+                }
+            ],
+            "noise": {
+                "amplitudes": [
+                    1
+                ],
+                "firstOctave": 0
+            },
+            "scale": 0.003,
+            "seed": 8390,
+            "threshold": -0.8
+        }
+    }
+}
