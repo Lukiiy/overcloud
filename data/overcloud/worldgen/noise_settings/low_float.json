@@ -14,7 +14,7 @@
     "noise": {
         "height": 64,
         "min_y": 0,
-        "size_horizontal": 2,
+        "size_horizontal": 1,
         "size_vertical": 1
     },
     "noise_router": {
@@ -33,19 +33,19 @@
                         "type": "minecraft:blend_density",
                         "argument": {
                             "type": "minecraft:add",
-                            "argument1": -0.234375,
+                            "argument1": -1.1,
                             "argument2": {
                                 "type": "minecraft:mul",
                                 "argument1": {
                                     "type": "minecraft:y_clamped_gradient",
                                     "from_value": 0,
-                                    "from_y": 4,
+                                    "from_y": 0,
                                     "to_value": 1,
-                                    "to_y": 32
+                                    "to_y": 8
                                 },
                                 "argument2": {
                                     "type": "minecraft:add",
-                                    "argument1": 0.234375,
+                                    "argument1": 1.1,
                                     "argument2": {
                                         "type": "minecraft:add",
                                         "argument1": -23.4375,
@@ -54,9 +54,9 @@
                                             "argument1": {
                                                 "type": "minecraft:y_clamped_gradient",
                                                 "from_value": 1,
-                                                "from_y": 184,
+                                                "from_y": 64,
                                                 "to_value": 0,
-                                                "to_y": 440
+                                                "to_y": 128
                                             },
                                             "argument2": {
                                                 "type": "minecraft:add",
