@@ -17,8 +17,7 @@
     },
     "temperature_modifier": "frozen",
     "carvers": [
-        "minecraft:cave",
-        "minecraft:cave_extra_underground"
+        "overcloud:cave"
     ],
     "downfall": 0.2,
     "effects": {
