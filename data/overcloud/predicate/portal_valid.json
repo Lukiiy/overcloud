@@ -1,6 +1,7 @@
 {
     "condition": "minecraft:location_check",
     "predicate": {
+        "dimension": "minecraft:overworld",
         "block": {
             "blocks": "minecraft:golden_dandelion"
         }
