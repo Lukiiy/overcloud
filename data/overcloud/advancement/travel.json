@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:diamond"
+		},
+		"title": "Over the clouds!",
+		"description": "Travel to the Overcloud",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "overcloud:root",
+	"criteria": {
+	    "a": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "overcloud:overcloud"
+            }
+        }
+	}
+}
