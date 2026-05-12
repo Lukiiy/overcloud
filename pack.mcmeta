@@ -1,6 +1,17 @@
 {
     "pack": {
-        "description": "Overcloud!",
-        "pack_format": 101
+        "description": {
+            "text": "Overclouds",
+            "color": "#54cedd"
+        },
+        "pack_format": 101,
+        "min_format": [
+            101,
+            1
+        ],
+        "max_format": [
+            256,
+            0
+        ]
     }
 }
